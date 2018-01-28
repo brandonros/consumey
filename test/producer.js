@@ -1,7 +1,7 @@
 var Promise = require('bluebird');
 var uuid = require('uuid');
 
-var Producer = require('../lib/producer.js');
+var Producer = require('../lib/Producer.js');
 
 (async function() {
   var producer = new Producer('127.0.0.1', 1337);

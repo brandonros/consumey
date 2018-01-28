@@ -1,6 +1,6 @@
 var Promise = require('bluebird');
 
-var Server = require('../lib/server.js');
+var Server = require('../lib/Server.js');
 
 (async function() {
   var server = new Server('127.0.0.1', 1337);
